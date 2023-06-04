@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">TO-DO list</string>
+    <string name="app_list">List of tasks</string>
+    <string name="app_add">Add new task</string>
+    <string name="app_reminder">Add reminder</string>
+    <string name="app_task_details">Task Details</string>
+    <string name="app_edit_task">Edit Task</string>
+    <string name="app_add_select_date">Select Date </string>
+    <string name="app_add_time">Add Time </string>
+    <string name="app_add_select_time">Add Select Time </string>
+    <string name="app_title">plan your time today</string>
+    <string name="app_plan">Let start</string>
+    <string name="app_new_task">Add New Task</string>
+<string name="app_add_title">Add a New Task!</string>
+    <string name="app_add_name">Task Name</string>
+    <string name="app_add_category">Task Category</string>
+    <string name="app_add_description">Task Description</string>
+    <string name="app_add_button">Add Task</string>
+<string name="app_set_reminder">Set Reminder</string>
+    <string name="reminder_time_hint">Select Time</string>
+    <string name="notification_channel_name">xxxx</string>
+    <string name="notification_channel_description">vvvv</string>
+    <string name="menuCategory">Category</string>
+    <string name="menuToday">Today</string>
+    <string name="menuShop">Category</string>
+<string name="app_task_delete">Delete Task</string>
+<string name="app_add_date">Set date</string>
+<string name="app_view_category">Task Category</string>
+<string name="notification_created">Notification Created!</string>
+
+</resources>
