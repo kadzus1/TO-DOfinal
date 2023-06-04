@@ -126,9 +126,10 @@ public class ListActivity extends AppCompatActivity {
     private void deleteWork(Work work, int position) {
         //Służy do budowania dialogów z użytkownikiem
         AlertDialog.Builder builder = new AlertDialog.Builder(this);
-        builder.setTitle("Potwierdzenie");
-        builder.setMessage("Czy na pewno chcesz usunąć to zadanie?");
-        builder.setPositiveButton("Tak", new DialogInterface.OnClickListener() {
+        builder.setTitle(getString(R.string.del_confirmation));
+        builder.setMessage(getString(R.string.del_confirmation_text));
+
+        builder.setPositiveButton(getString(R.string.positiveButton), new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialog, int which) {
                 //Po potwierdzeniu dialogu zostaje wywołana metoda w viewModel, zadanie zostaje usunięte,
@@ -138,7 +139,7 @@ public class ListActivity extends AppCompatActivity {
                 daoAdapter.notifyItemRangeChanged(position, daoAdapter.getItemCount());
             }
         });
-        builder.setNegativeButton("Nie", null);
+        builder.setNegativeButton(getString(R.string.negativeButton), null);
         builder.show();
     }
 
@@ -175,7 +176,7 @@ public class ListActivity extends AppCompatActivity {
         String[] categories = getResources().getStringArray(R.array.category_array);
 
         AlertDialog.Builder builder = new AlertDialog.Builder(this);
-        builder.setTitle("Wybierz kategorię");
+        builder.setTitle(getString(R.string.choose_category));
         builder.setItems(categories, new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialog, int which) {

@@ -3,6 +3,6 @@
     xmlns:app="http://schemas.android.com/apk/res-auto">
     <item
         android:id="@+id/menuCategory"
-        android:title="Filtruj według kategorii"
+        android:title="@string/filter"
         app:showAsAction="never" />
 </menu>

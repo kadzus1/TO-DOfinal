@@ -13,7 +13,7 @@
         android:layout_height="wrap_content"
         android:gravity="center_horizontal"
         android:layout_marginTop="2pt"
-        android:text="Brak zadań na dziś. Dodaj zadanko!"
+        android:text="@string/no_tasks"
         android:textSize="24sp"
         android:textStyle="bold"
         android:visibility="gone" />
@@ -28,8 +28,7 @@
         android:id="@+id/recyclerView"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_gravity="center_vertical"
-        tools:listitem="@layout/plant_row" />
+        android:layout_gravity="center_vertical" />
 
 
 
